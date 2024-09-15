@@ -1,0 +1,29 @@
+Time for RFECV:
+Training Decision Tree
+Time to fit 17.166s
+Decision Tree fitting done!
+Training Naive Bayes
+Time to fit 11.233s
+Naive Bayes fitting done!
+Training Random Forest
+Time to fit 158.209s
+Random Forest fitting done!
+Training Gradient Boosting
+Time to fit 350.785s
+Gradient Boosting fitting done!
+Training AdaBoost
+Time to fit 116.583s
+AdaBoost fitting done!
+Training XGBoost
+Time to fit 25.916s
+XGBoost fitting done!
+Training K-Nearest Neighbor
+Time to fit -0.001s   X
+K-Nearest Neighbor fitting done!
+Training Stochastic Gradient Descent
+Time to fit -11.262s  X
+Stochastic Gradient Descent fitting done!
+Training Logistic Regression
+Time to fit -20.796s  X
+Logistic Regression fitting done!
+Time to fit 705.674s
