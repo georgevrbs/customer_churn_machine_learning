@@ -1,0 +1,45 @@
+Tuning:  Decision Tree
+Fitting 3 folds for each of 1920 candidates, totalling 5760 fits
+Time tuning Decision Tree : 59.062283992767334s
+Best params for Decision Tree : {'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 10, 'min_samples_split': 40, 'splitter': 'random'}
+
+Tuning:  Naive Bayes
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+Time tuning Naive Bayes : 4.074672222137451s
+Best params for Naive Bayes : {'var_smoothing': np.float64(0.00011497569953977356)}
+
+Tuning:  Random Forest
+Fitting 3 folds for each of 35 candidates, totalling 105 fits
+Time tuning Random Forest : 226.21124005317688s
+Best params for Random Forest : {'n_estimators': 150, 'min_samples_split': 20, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': 15, 'criterion': 'log_loss', 'class_weight': 'balanced'}
+
+Tuning:  Gradient Boosting
+Time tuning Gradient Boosting : 39.49445652961731s
+Best params for Gradient Boosting : {'n_estimators': 64, 'min_samples_split': np.float64(0.7000000000000001), 'min_samples_leaf': np.float64(0.1), 'max_features': 40, 'max_depth': np.int64(80), 'learning_rate': 0.5}
+
+Tuning:  AdaBoost
+Fitting 3 folds for each of 35 candidates, totalling 105 fits
+Time tuning AdaBoost : 72.99072980880737s
+Best params for AdaBoost : {'n_estimators': 200, 'learning_rate': 1, 'algorithm': 'SAMME'}
+
+Tuning:  XGBoost
+Fitting 3 folds for each of 35 candidates, totalling 105 fits
+Time tuning XGBoost : 56.40566062927246s
+Best params for XGBoost : {'tree_method': 'hist', 'n_estimators': 100, 'max_depth': np.int64(10), 'learning_rate': 0.05}
+
+Tuning:  K-Nearest Neighbor
+Fitting 3 folds for each of 200 candidates, totalling 600 fits
+Time tuning K-Nearest Neighbor : 63.86217451095581s
+Best params for K-Nearest Neighbor : {'leaf_size': 14, 'n_neighbors': np.int64(29), 'p': 1}
+
+Tuning:  Stochastic Gradient Descent
+Fitting 3 folds for each of 9 candidates, totalling 27 fits
+Time tuning Stochastic Gradient Descent : 1.1616222858428955s
+Best params for Stochastic Gradient Descent : {'l1_ratio': np.float64(0.75), 'penalty': 'elasticnet'}
+
+Tuning:  Logistic Regression
+Fitting 3 folds for each of 660 candidates, totalling 1980 fits
+Time tuning Logistic Regression : 426.6749565601349s
+Best params for Logistic Regression : {'C': 0.1, 'class_weight': 'balanced', 'l1_ratio': np.float64(0.5), 'max_iter': 100, 'penalty': 'elasticnet', 'solver': 'saga'}
+
+Full Tuning time 949.9413259029388s
