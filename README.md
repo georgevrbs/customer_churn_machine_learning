@@ -10,7 +10,7 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 # Abstract
 
-This paper aims to study different kinds of machine learning classification algorithms, 
+This code aims to study different kinds of machine learning classification algorithms, 
 on telecommunication customer data, in order to find the best algorithm that will identify 
 if a customer will churn or not. In this way a telecommunication company could implement 
 a way or strategy in order to reduce lost or decreasing revenue over time. The data were 
